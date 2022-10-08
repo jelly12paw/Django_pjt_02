@@ -4,6 +4,8 @@
     Django로 CRUD 활용한 영화 리뷰 웹 사이트 구현하기    
 
 <hr>
+
+![m-bingbong](https://user-images.githubusercontent.com/107910587/194718583-df06245d-1897-4abb-bcf8-341c59b69b1c.gif)
 <br>
 
 ## 🧰 사용기술
@@ -20,15 +22,11 @@
 
 ## 📅 프로젝트 기간
 
-<br>
-
 ### 2022.10.07
 
 <br>
 
 ## 👩🏻‍💻 역할
-
-<br>
 
 ### Front-end & Back-end
 
@@ -172,7 +170,7 @@ class ReviewForm(forms.ModelForm):
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-main](https://user-images.githubusercontent.com/107910587/194718595-0d80c333-01ea-4980-b919-ac1b110d06e7.gif)
 
 <br>
 
@@ -196,7 +194,7 @@ class ReviewForm(forms.ModelForm):
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-list](https://user-images.githubusercontent.com/107910587/194718603-710edc1d-9372-4d63-8a0a-2386fe49d694.gif)
 
 <br>
 
@@ -217,7 +215,7 @@ class ReviewForm(forms.ModelForm):
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-detail](https://user-images.githubusercontent.com/107910587/194718610-e0257005-e719-4136-8b48-68ac8d33d450.gif)
 
 <br>
 
@@ -240,7 +238,7 @@ class ReviewForm(forms.ModelForm):
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-create](https://user-images.githubusercontent.com/107910587/194718619-0d716d47-bd28-48e2-875a-dc720acdd957.gif)
 
 <br>
 
@@ -279,7 +277,7 @@ class ReviewForm(forms.ModelForm):
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-delete](https://user-images.githubusercontent.com/107910587/194718615-4d2a7534-bd10-4c33-913b-60911dbcd527.gif)
 
 <br>
 
