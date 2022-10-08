@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container" style="font-family: intensa;">
+    <h1 class="text-center" style="margin-top: 1rem; font-size: 4rem; font-weight: bold; color: white;">REVIEWS
+    </h1>
+    <div class="d-flex justify-content-end">
+        <a class="btn"
+            style="width:4rem; background-color: #4E0E4A; color: white; border-color: white; text-decoration: none;"
+            href="{% url 'reviews:create' %}">WRITE</a>
+    </div>
+    <hr>
+    <div class="row row-cols-md-4 row-cols-1 justify-content-center">
+        {% for content in contents %}
+        <div class="col text-center mb-4">
+            <div class="card my-3 h-100" style="background: #A34673; opacity: 90%; object-fit: cover;">
+                <img src="{{ content.img_url }}" class="card-img-top h-100">
+                <div class="card-body" style="color: white;">
+                    <h5 class="card-title fw-bold" style="font-size: 2rem;">{{ content.title }}</h5>
+                    <p class="card-text" style="font-size: 1.5rem;">{{ content.movie_name }}</p>
+                    {% if content.grade == 5 %}
+                    <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </p>
+                    {% elif content.grade == 4 %}
+                    <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    {% elif content.grade == 3 %}
+                    <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i></p>
+                    {% elif content.grade == 2 %}
+                    <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    {% else %}
+                    <p style="color: gold;"><i class="bi bi-star-fill"></i></p>
+                    {% endif %}
+                    <a href="{% url 'reviews:detail' content.pk %}" class="btn btn-primary"
+                        style="background-color: white; color:#A34673; border-color: white;">Detail</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

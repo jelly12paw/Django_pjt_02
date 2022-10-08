@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load mathfilters %}
+{% block content %}
+<div class="m-4">
+    <div class="col" style="font-family: intensa; color: white;">
+        <div class="text-center">
+            <img style="height: 25rem; border-radius: 1rem;" src="{{ content.img_url }}" alt="">
+        </div>
+        <div class="m-4 text-center">
+            <h1 style="color:gold;">{{ content.movie_name }}</h1>
+            <p class="fs-3">{{ content.title }}</p>
+            <p class="fs-4">{{ content.content }}</p>
+            {% if content.grade == 5 %}
+            <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            {% elif content.grade == 4 %}
+            <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            {% elif content.grade == 3 %}
+            <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i></p>
+            {% elif content.grade == 2 %}
+            <p style="color: gold;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            {% else %}
+            <p style="color: gold;"><i class="bi bi-star-fill"></i></p>
+            {% endif %}
+            <span>create : {{ content.created_at | date:'Y-m-d H:i:s' }}</span>
+            <p>update : {{ content.updated_at | date:'Y-m-d H:i:s' }}</p>
+            <a href="{% url 'reviews:index' %}" class="btn btn-primary mx-2 mb-2"
+                style="background-color: rgb(205, 118, 161); color:white; border-color: white;">Go Main</a>
+            <a href="{% url 'reviews:update' content.pk %}" class="btn btn-success mx-2 mb-2"
+                style="background-color: #A34673; color:white; border-color: white;">Update</a>
+            <a href="{% url 'reviews:delete' content.pk %}" class="btn btn-danger mx-2 mb-2"
+                style="background-color: #4E0E4A; color:white; border-color: white;">Delete</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

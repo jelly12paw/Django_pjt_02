@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<div class='container'>
+    <form class="p-5 text-center fw-bold"
+        style="height: 10rem; color: white; font-family: 'intensa'; font-size: 1.6rem;" method="POST">
+        {% csrf_token %}
+        {% bootstrap_form review_form %}
+
+        <input class="p-1 mt-2 mb-1" type="submit" value='EDIT'
+            style="background-color: #4E0E4A; color: white; border-color: white;">
+
+    </form>
+</div>
+{% endblock %}
