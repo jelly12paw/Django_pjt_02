@@ -5,7 +5,7 @@
 
 <hr>
 
-![m-bingbong](https://user-images.githubusercontent.com/107910587/194718583-df06245d-1897-4abb-bcf8-341c59b69b1c.gif)
+![w-bingbong](https://user-images.githubusercontent.com/107910587/194854302-e23905b3-21d4-49ec-b0b8-95bed1fb0fb9.gif) 　　![m-bingbong](https://user-images.githubusercontent.com/107910587/194718583-df06245d-1897-4abb-bcf8-341c59b69b1c.gif)
 <br>
 
 ## 🧰 사용기술
@@ -164,7 +164,8 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+![w-main](https://user-images.githubusercontent.com/107910587/194854261-83e7371e-0521-4b2e-b0a6-6712c6104997.gif)
+
 
 <br>
 
@@ -188,7 +189,9 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+
+![w-list](https://user-images.githubusercontent.com/107910587/194854276-a88a624c-90c3-4435-8310-0c6b8ce38e74.gif)
+
 
 <br>
 
@@ -209,7 +212,7 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+![w-detail](https://user-images.githubusercontent.com/107910587/194854279-e9c451a3-7551-4d3e-8862-d7fb25ac216d.gif)
 
 <br>
 
@@ -232,7 +235,8 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+![w-create](https://user-images.githubusercontent.com/107910587/194854292-6ea3e84d-1868-4264-a9aa-c86011cf20da.gif)
+
 
 <br>
 
@@ -253,13 +257,13 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+![w-update](https://user-images.githubusercontent.com/107910587/194854247-9ef78673-c605-406b-b005-d9f8c583f124.gif)
 
 <br>
 
 #### 📱 모바일 크기
 
-![메인페이지 구현 화면](url)
+![m-update](https://user-images.githubusercontent.com/107910587/194854318-fa3f6cdf-ccf9-49b6-b1b1-cc987c2769bf.gif)
 
 <br>
 
@@ -271,7 +275,7 @@ class ReviewForm(forms.ModelForm):
 <br>
 
 #### 💻 웹 크기
-![메인페이지 구현 화면](url)
+![w-delete](https://user-images.githubusercontent.com/107910587/194854283-4d127f7a-7b28-4b12-bd74-09d240b7ec75.gif)
 
 <br>
 
