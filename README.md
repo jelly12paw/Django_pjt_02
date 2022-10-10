@@ -5,7 +5,7 @@
 
 <hr>
 
-![w-bingbong](https://user-images.githubusercontent.com/107910587/194854302-e23905b3-21d4-49ec-b0b8-95bed1fb0fb9.gif) 　　![m-bingbong](https://user-images.githubusercontent.com/107910587/194718583-df06245d-1897-4abb-bcf8-341c59b69b1c.gif)
+![w-bingbong](https://user-images.githubusercontent.com/107910587/194854302-e23905b3-21d4-49ec-b0b8-95bed1fb0fb9.gif) ![m-bingbong](https://user-images.githubusercontent.com/107910587/194718583-df06245d-1897-4abb-bcf8-341c59b69b1c.gif)
 <br>
 
 ## 🧰 사용기술
